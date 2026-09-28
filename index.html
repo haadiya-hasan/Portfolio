@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Modern AI student portfolio with projects, education, skills, experience and certifications." />
+  <title>Your Name — AI Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <div class="dot-bg">
+  <div class="dot d1"></div>
+  <div class="dot d2"></div>
+  <div class="dot d3"></div>
+  <div class="dot d4"></div>
+  <div class="dot d5"></div>
+  <div class="dot d6"></div>
+  <div class="dot d7"></div>
+  <div class="dot d8"></div>
+  <div class="dot d9"></div>
+  <div class="dot d10"></div>
+  <div class="dot d11"></div>
+  <div class="dot d12"></div>
+</div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span>portfolio<span class="accent">.</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" title="Toggle theme">
+        <span class="sun">☀</span><span class="moon">☾</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="grid-lines"></div>
+
+      <div class="hero-copy reveal">
+        <div class="availability"><span></span> Available for new projects</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Haadiya<br><span class="gradient-text">Faruqi</h1><br>
+        <span class="outline-text">AI Student &amp; Developer</span></h1>
+        <p class="hero-text">
+          I build thoughtful digital experiences and practical AI projects,
+          blending clean interfaces, programming and problem-solving.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn btn-secondary" href="C:\Users\Administrator\Downloads\portfolio_website\Resume\Haadiya Hasan Faruqi - Resume.pdf">Resume<span>→</span></a>
+        </div>
+
+        <div class="quick-stats">
+          <div><strong>01+</strong><span>Years Learning</span></div>
+          <div><strong>08+</strong><span>Projects</span></div>
+          <div><strong>10+</strong><span>Technologies</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-2">
+        <div class="floating-card mini-card card-top">
+          <span class="mini-icon">✦</span>
+          <div><b>Creative</b><small>Problem Solver</small></div>
+        </div>
+
+        <div class="code-window">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+            <em>main.py</em>
+          </div>
+          <div class="code-body">
+            <p><i>01</i> <span class="purple">class</span> <span class="blue">Developer</span>:</p>
+            <p><i>02</i> &nbsp;&nbsp;<span class="purple">def</span> <span class="blue">build</span>(self):</p>
+            <p><i>03</i> &nbsp;&nbsp;&nbsp;&nbsp;ideas = [<span class="green">"AI"</span>, <span class="green">"Web"</span>]</p>
+            <p><i>04</i> &nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">return</span> ideas</p>
+            <p><i>05</i> &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># keep learning ✦</span></p>
+            <p><i>06</i> </p>
+            <p><i>07</i> <span class="blue">Developer</span>().<span class="blue">build</span>()<span class="blink">_</span></p>
+          </div>
+        </div>
+
+        <div class="floating-card mini-card card-bottom">
+          <span class="mini-icon">◈</span>
+          <div><b>AI + Web</b><small>Building ideas</small></div>
+        </div>
+        <div class="floating-dot dot-a"></div>
+        <div class="floating-dot dot-b"></div>
+        <div class="floating-dot dot-c"></div>
+      </div>
+    </section>
+
+
+    
+    <section class="section about" id="about">
+
+  <div class="section-heading reveal">
+    <p class="eyebrow">01 — ABOUT ME</p>
+
+    <h2>
+      Curious mind.<br>
+      <span class="gradient-text">Creative builder.</span>
+    </h2>
+  </div>
+
+  <div class="about-grid">
+
+    <!-- LEFT SIDE: Bio -->
+    <div class="about-text reveal">
+
+      <p class="lead">
+        A tech-driven college student who vibes with Python, Data Analytics,
+        and building smart systems that actually do something, not just sit pretty.
+      </p>
+
+      <p>
+        I love turning raw data into stories, visuals, and decisions.
+      </p>
+
+      <p>
+        My interests sit at the intersection of programming, artificial
+        intelligence, data and modern web development. I like learning by
+        building — from small utilities to larger portfolio-ready projects.
+      </p>
+
+      <p>
+        I'm constantly experimenting with new tools, improving my
+        problem-solving skills and looking for opportunities to create
+        something meaningful.
+      </p>
+
+    </div>
+
+
+    <!-- RIGHT SIDE: Planet + Skills + Gallery + Stats -->
+    <div class="about-right-col">
+
+      <div class="about-art delay-1">
+
+  <div class="orbit orbit-1 orbit-back"></div>
+  <div class="orbit orbit-2 orbit-back"></div>
+
+  <div class="planet">
+    <img src="haadiya-hasan.JPG" alt="Haadiya Faruqi">
+  </div>
+
+  <div class="orbit orbit-1 orbit-front"></div>
+  <div class="orbit orbit-2 orbit-front"></div>
+
+  <span class="star s1">✦</span>
+  <span class="star s2">✧</span>
+  <span class="star s3">✦</span>
+
+  <div class="art-label">
+    <span>Currently</span>
+    <b>Learning → Building → Growing</b>
+  </div>
+
+</div>
+
+      
+
+      <!-- Core Skills -->
+      <div class="about-tags-box">
+
+        <p class="tags-title">Core Skills &amp; Focus</p>
+
+        <div class="about-tags">
+  <span data-skill="python">Python</span>
+  <span data-skill="sql">SQL</span>
+  <span data-skill="ai">AI / ML</span>
+  <span data-skill="web">Web Development</span>
+  <span data-skill="mongo">MongoDB</span>
+  <span data-skill="data">Data Sciences</span>
+</div>
+
+<div class="skill-info" id="skillInfo">
+  <span class="skill-info-label">EXPLORE</span>
+  <p>Click a skill to see what I work with.</p>
+</div>
+
+
+      <!-- Workspace / Project Images -->
+<div class="about-gallery">
+
+  <div class="gallery-item">
+    <img
+      src="https://i.pinimg.com/736x/aa/da/24/aada24c0928136f775aed2f2a803d1ef.jpg"
+      data-dark-src="https://i.pinimg.com/736x/aa/da/24/aada24c0928136f775aed2f2a803d1ef.jpg"
+      data-light-src="https://i.pinimg.com/736x/65/c0/8d/65c08dbd50ddfdf644f5f7d84be25a52.jpg"
+      alt="Side Hustle"
+    >
+    <span class="gallery-caption">Gaming</span>
+  </div>
+
+  <div class="gallery-item">
+    <img
+      src="https://i.pinimg.com/736x/1d/3a/47/1d3a4751472b619d09cebfc99bea4025.jpg"
+      data-dark-src="https://i.pinimg.com/736x/1d/3a/47/1d3a4751472b619d09cebfc99bea4025.jpg"
+      data-light-src="https://i.pinimg.com/736x/8b/c9/f5/8bc9f5c9c64ace9fcdbfbf0c262b7d94.jpg"
+      alt="Work"
+    >
+    <span class="gallery-caption">Vibe &amp; Coding</span>
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading center reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>My <span class="gradient-text">toolkit</span></h2>
+        <p>Technologies and concepts I use while learning and building.</p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon purple-bg">⌘</div><h3>Languages</h3>
+          <div class="skill-list"><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span></div>
+        </article>
+        <article class="skill-card reveal delay-1">
+          <div class="skill-icon blue-bg">◇</div><h3>AI &amp; Data</h3>
+          <div class="skill-list"><span>Machine Learning</span><span>Data Analysis</span><span>Visualization</span><span>AI Concepts</span></div>
+        </article>
+        <article class="skill-card reveal delay-2">
+          <div class="skill-icon pink-bg">⌁</div><h3>Development</h3>
+          <div class="skill-list"><span>Flask</span><span>Responsive UI</span><span>Git / GitHub</span><span>APIs</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon green-bg">✦</div><h3>Creative</h3>
+          <div class="skill-list"><span>UI Design</span><span>Prototyping</span><span>Visual Design</span><span>Presentation</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — EDUCATION</p>
+        <h2>Learning with <span class="gradient-text">purpose.</span></h2>
+      </div>
+      <div class="timeline single-timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">01</div>
+          <div class="timeline-card">
+            <span class="date">CURRENT</span>
+            <h3>BSc Artificial Intelligence</h3>
+            <h4>Asian Academy of Film and Television</h4>
+            <p>Coursework and hands-on learning across programming, data analysis, SQL, Python, visualization, computational techniques and foundations of AI.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot">02</div>
+          <div class="timeline-card">
+            <span class="date">COMPLETED</span>
+            <h3>Senior Secondary Education</h3>
+            <h4>Somerville International School</h4>
+            <p>Built an early foundation in computer science, programming and analytical problem solving through academic and practical projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading center reveal">
+        <p class="eyebrow">04 — PROJECTS</p>
+        <h2>Things I've <span class="gradient-text">built.</span></h2>
+        <p>Replace these sample projects with your own GitHub work.</p>
+      </div>
+
+<div class="project-grid">
+
+  <!-- PROJECT 01 -->
+  <article class="project-card reveal">
+    <div class="project-visual visual-one">
+      <span>⌁</span>
+      <small>AI / ML</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">01</span>
+      <h3>House Price Predictor</h3>
+      <p>A machine-learning project that predicts house prices from selected features.</p>
+
+      <div class="tech-tags">
+        <span>Python</span>
+        <span>ML</span>
+        <span>Data</span>
+      </div>
+
+      <div class="project-extra">
+        <div class="extra-item">
+          <span>MODEL</span>
+          <strong>Linear Regression</strong>
+        </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>Data Preprocessing & Prediction</strong>
+        </div>
+        <div class="extra-item">
+          <span>METRICS</span>
+          <strong>MAE · MSE · RMSE · R²</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/Machine-Learning-1/blob/main/house_price_prediction.ipynb" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+
+  <!-- PROJECT 02 -->
+  <article class="project-card reveal delay-1">
+    <div class="project-visual visual-two">
+      <span>◉</span>
+      <small>VISUALISE</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">02</span>
+      <h3>Power BI Projects</h3>
+      <p>Work focusing on data visualization, dashboards, and basic analytical insights using Power BI.</p>
+
+      <div class="tech-tags">
+        <span>Excel</span>
+        <span>Power BI</span>
+        <span>Data</span>
+      </div>
+
+      <div class="project-extra">
+        <div class="extra-item">
+          <span>TYPE</span>
+          <strong>Informational</strong>
+        </div>
+        <div class="extra-item">
+          <span>FEATURES</span>
+          <strong>Visualisation Tools</strong>
+        </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>Charts · Graphs</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/Visualisation-Tools" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+
+  <!-- PROJECT 03 -->
+  <article class="project-card reveal delay-2">
+    <div class="project-visual visual-three">
+      <span>▦</span>
+      <small>FULL STACK</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">03</span>
+      <h3>Math Quiz App</h3>
+      <p>A responsive quiz application with difficulty levels, scoring and progress tracking.</p>
+
+      <div class="tech-tags">
+        <span>Flask</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
+
+      <div class="project-extra">
+        <div class="extra-item">
+          <span>TYPE</span>
+          <strong>Interactive Quiz</strong>
+        </div>
+        <div class="extra-item">
+          <span>FEATURES</span>
+          <strong>Difficulty Levels · Scoring</strong>
+        </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>Responsive Web Application</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/MathMaster-Web" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+
+  <!-- PROJECT 04 -->
+  <article class="project-card reveal">
+    <div class="project-visual visual-four">
+      <span>⌗</span>
+      <small>EDA</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">04</span>
+      <h3>Data Analysis on Various Projects</h3>
+      <p>A collection of exploratory data analysis projects focused on
+      understanding datasets, finding patterns and creating meaningful
+      visualizations.</p>
+
+      <div class="tech-tags">
+      <span>Python</span>
+      <span>Pandas</span>
+      <span>Seaborn</span>
+      <span>EDA</span>
+    </div>
+
+      <div class="project-extra">
+         <div class="extra-item">
+        <span>TYPE</span>
+        <strong>Exploratory Data Analysis</strong>
+      </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>Data Cleaning and Visualisation</strong>
+        </div>
+        <div class="extra-item">
+          <span>FEATURES</span>
+          <strong>Python · Pandas · Matplotlib · Seaborn</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/EDA-on-different-Datasets" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+
+  <!-- PROJECT 05 -->
+  <article class="project-card reveal delay-1">
+    <div class="project-visual visual-five">
+      <span>◷</span>
+      <small>UTILITY</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">05</span>
+      <h3>Digital Clock</h3>
+      <p>A minimal real-time clock and alarm interface with animated visual feedback.</p>
+
+      <div class="tech-tags">
+        <span>JavaScript</span>
+        <span>CSS</span>
+      </div>
+
+      <div class="project-extra">
+        <div class="extra-item">
+          <span>TYPE</span>
+          <strong>Utility Application</strong>
+        </div>
+        <div class="extra-item">
+          <span>FEATURES</span>
+          <strong>Real-Time Clock · Alarm</strong>
+        </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>JavaScript Logic & Animation</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/Digital-Clock" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+
+  <!-- PROJECT 06 -->
+  <article class="project-card reveal delay-2">
+    <div class="project-visual visual-six">
+      <span>✕</span>
+      <small>GAME</small>
+    </div>
+
+    <div class="project-content">
+      <span class="project-number">06</span>
+      <h3>Tic-Tac-Toe</h3>
+      <p>A browser game with local multiplayer and an optional AI opponent mode.</p>
+
+      <div class="tech-tags">
+        <span>JavaScript</span>
+        <span>AI</span>
+      </div>
+
+      <div class="project-extra">
+        <div class="extra-item">
+          <span>TYPE</span>
+          <strong>Browser Game</strong>
+        </div>
+        <div class="extra-item">
+          <span>MODES</span>
+          <strong>2 Player · AI Opponent</strong>
+        </div>
+        <div class="extra-item">
+          <span>FOCUS</span>
+          <strong>Game Logic & Interaction</strong>
+        </div>
+      </div>
+
+      <a href="https://github.com/haadiya-hasan/Tic-Tac-Toe" class="project-link">View Project ↗</a>
+    </div>
+  </article>
+
+</div>
+
+    <section class="section experience" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — EXPERIENCE</p>
+        <h2>Learning beyond the <span class="gradient-text">classroom.</span></h2>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card reveal">
+          <div class="exp-year">2026</div>
+          <div><h3>Class Representative</h3><p class="exp-place">College / University</p><p>Coordinating communication between students and faculty, helping with organization and developing confidence in public-facing responsibilities.</p></div>
+        </article>
+        <article class="experience-card reveal delay-1">
+          <div class="exp-year">2026</div>
+          <div><h3>Event &amp; Project Participation</h3><p class="exp-place">Academic &amp; Creative Activities</p><p>Participated in campus activities and practical projects while strengthening teamwork, presentation and problem-solving skills.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section certifications" id="certifications">
+      <div class="section-heading center reveal">
+        <p class="eyebrow">06 — CERTIFICATIONS</p>
+        <h2>Milestones worth <span class="gradient-text">showing.</span></h2>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card reveal"><div class="cert-badge">✦</div><div><h3>Python Fundamentals</h3><p>Certificate Provider</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card reveal delay-1"><div class="cert-badge">◇</div><div><h3>Artificial Intelligence</h3><p>Certificate Provider</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card reveal delay-2"><div class="cert-badge">⌘</div><div><h3>Web Development</h3><p>Certificate Provider</p></div><span class="cert-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-intro">
+          <p class="eyebrow">07 — CONTACT</p>
+          <h2>Let's make something <span class="gradient-text">interesting.</span></h2>
+          <p>Have a project idea, collaboration, internship opportunity or simply want to say hello? Send a message.</p>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com">✉ hasan.haadiya@gmail.com</a>
+            <a href="https://github.com/haadiya-hasan" target="_blank" rel="noreferrer">↗ GitHub</a>
+            <a href="https://www.linkedin.com/in/haadiya-faruqi-6197b2387/" target="_blank" rel="noreferrer">↗ LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me about your idea..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Message <span>↗</span></button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Haadiya H. Faruqi. Built with curiosity &amp; code.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
