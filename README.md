@@ -1,268 +1,150 @@
-# ✦ Haadiya Hasan Faruqi — Portfolio
+# Haadiya Faruqi — AI / ML Portfolio
 
-> A personal portfolio website showcasing my journey through **Artificial Intelligence, Machine Learning, Data Science, and Web Development**.
+An interactive, dark-themed developer portfolio built with **plain HTML, CSS and JavaScript** — no frameworks, no build step, no dependencies to install. Open `index.html` and it runs.
 
-🌐 **Portfolio:** [Live Website](#)
-💻 **GitHub:** [haadiya-hasan](https://github.com/haadiya-hasan)
-💼 **LinkedIn:** [Haadiya Faruqi](https://www.linkedin.com/in/haadiya-faruqi-6197b2387/)
+Design direction: **Mauve Serenity × Monochrome Chic** — near-black paper, ink-white type, dusty mauve accents, editorial serif italics, monospace metadata, and motion that is tied to scroll rather than popping in and out.
 
----
-
-## 👩🏻‍💻 About
-
-I'm a college student pursuing a **BSc in Artificial Intelligence**, with an interest in building practical projects at the intersection of **AI, data, programming, and modern web development**.
-
-I enjoy turning ideas into functional applications, exploring datasets, experimenting with machine learning, and creating interfaces that are both useful and visually engaging.
-
-This portfolio is a collection of my projects, technical skills, education, experiences, and ongoing learning journey.
+> **Live site:** `https://haadiya-hasan.github.io/`
 
 ---
 
-## ✨ Features
+## Features
 
-* 🎨 Modern and responsive portfolio design
-* 🌓 Light and dark theme support
-* ✨ Scroll-based reveal animations
-* 🖱️ Interactive cursor glow
-* 🎯 Active navigation based on the current section
-* 🃏 Interactive project cards with 3D tilt effects
-* 🌌 Interactive planet/orbit visualisation
-* 💡 Interactive skill tags and descriptions
-* 📱 Responsive navigation for smaller screens
-* 📩 Contact form interface
-* 📅 Automatically updated footer year
-* ⚡ Lightweight frontend with no framework dependency
+**Intro & navigation**
+- Preloader with a typing name, progress counter, and a choice to enter with sound or silently
+- Sticky nav that hides on scroll-down and returns on scroll-up, scroll-progress bar, mobile menu
+- Smooth anchor scrolling
 
----
+**Hero**
+- Rotating 3D network planet drawn on canvas, reacting to the cursor
+- Skill chips orbiting the planet
+- Robot mascot whose eyes follow the cursor and who talks when clicked
+- Scrolling skills marquee that skews with scroll speed
 
-## 🛠️ Tech Stack
+**Motion**
+- Custom sparkle cursor with a trailing ring and click bursts
+- Drifting gradient blobs and a particle-network background that reacts to the mouse
+- Scroll-scrubbed section transitions: each section scales, tilts, fades and rounds its corners continuously as you scroll (fully reversible)
+- Floating shapes with parallax, shimmering headline accents, text-scramble on hover
 
-### Languages
+**Toolkit**
+- Click-to-expand rows with notes on how each tool is used
+- Skill radar chart that draws itself
+- Interactive terminal (`help`, `whoami`, `skills`, `projects`, `contact`, `ls`, `clear`)
+- Logo tiles that tilt in 3D toward the cursor
+- Draggable tag pit where logos fall, collide and can be thrown
 
-* **Python**
-* **JavaScript**
-* **HTML5**
-* **CSS3**
-* **SQL**
+**Work**
+- Project filters (All / ML & AI / Data / Web) with animated reflow
+- Click a card for a detail popup; `Esc`, ✕ or clicking outside closes it
 
-### AI & Data
+**Journey**
+- Timeline whose line draws itself as you scroll
 
-* Machine Learning
-* Data Analysis
-* Exploratory Data Analysis
-* Data Visualisation
-* Artificial Intelligence Concepts
-* Pandas
-* Matplotlib
-* Seaborn
+**Photos**
+- Framed portrait in About, polaroids in Journey, avatars in the hero and contact sections
+- Mauve duotone that turns to full colour on hover, with a curtain reveal and subtle parallax
 
-### Development
+**Contact**
+- Form that opens the visitor's mail app pre-filled, live Noida clock, availability badge, copy-email button
 
-* Flask
-* Responsive Web Design
-* APIs
-* Git
-* GitHub
+**Sound (optional, off by default)**
+- Synthesised with the Web Audio API, so there are no audio files. Toggle with the ♪ button in the nav; the choice is remembered.
 
-### Design & Creative
-
-* UI Design
-* Prototyping
-* Visual Design
-* Presentation
+**Accessibility**
+- Respects `prefers-reduced-motion`
+- Custom cursor and tilt effects only run on devices with a mouse
+- Responsive from phones to wide desktops
 
 ---
 
-## 📂 Featured Projects
-
-### 01 · House Price Predictor
-
-A machine learning project that predicts house prices based on selected features.
-
-**Tech:** Python · Machine Learning · Data
-**Model:** Linear Regression
-**Focus:** Data preprocessing and prediction
-**Metrics:** MAE · MSE · RMSE · R²
-
-🔗 [View Project](https://github.com/haadiya-hasan/Machine-Learning-1)
-
----
-
-### 02 · Power BI Projects
-
-A collection of data visualisation work focused on dashboards, charts, graphs, and basic analytical insights.
-
-**Tech:** Excel · Power BI · Data
-
-🔗 [View Project](https://github.com/haadiya-hasan/Visualisation-Tools)
-
----
-
-### 03 · Math Quiz App
-
-A responsive quiz application featuring multiple difficulty levels, scoring, and progress tracking.
-
-**Tech:** Flask · HTML · CSS
-
-**Features:**
-
-* Multiple difficulty levels
-* Interactive quiz system
-* Score tracking
-* Responsive interface
-
-🔗 [View Project](https://github.com/haadiya-hasan/MathMaster-Web)
-
----
-
-### 04 · Exploratory Data Analysis
-
-A collection of EDA projects focused on cleaning datasets, identifying patterns, analysing relationships, and creating meaningful visualisations.
-
-**Tech:** Python · Pandas · Matplotlib · Seaborn
-
-**Focus:**
-
-* Data cleaning
-* Exploratory analysis
-* Pattern identification
-* Data visualisation
-
-🔗 [View Project](https://github.com/haadiya-hasan/EDA-on-different-Datasets)
-
----
-
-### 05 · Digital Clock
-
-A minimal real-time digital clock and alarm interface with animated visual feedback.
-
-**Tech:** JavaScript · CSS
-
-**Features:**
-
-* Real-time clock
-* Alarm interface
-* Interactive animations
-
-🔗 [View Project](https://github.com/haadiya-hasan/Digital-Clock)
-
----
-
-### 06 · Tic-Tac-Toe
-
-A browser-based game featuring local multiplayer and an optional AI opponent.
-
-**Tech:** JavaScript · AI
-
-**Modes:**
-
-* 👥 Two-player
-* 🤖 AI opponent
-
-🔗 [View Project](https://github.com/haadiya-hasan/Tic-Tac-Toe)
-
----
-
-## 🎓 Education
-
-**BSc in Artificial Intelligence**
-Asian Academy of Film and Television (AAFT)
-
-Currently developing skills across programming, artificial intelligence, machine learning, data analysis, and web development.
-
----
-
-## 💼 Experience & Activities
-
-### Class Representative · 2026
-
-Working as a communication link between students and faculty while developing organisational, coordination, and public-facing skills.
-
-### Academic & Creative Activities · 2026
-
-Participating in academic projects and campus activities focused on teamwork, presentations, problem-solving, and practical application of technical skills.
-
----
-
-## 📜 Certifications
-
-* Python Fundamentals
-* Artificial Intelligence
-* Web Development
-
----
-
-## 📁 Repository Structure
+## Project structure
 
 ```text
-Portfolio/
-│
-├── index.html          # Main portfolio page
-├── style.css           # Styling and responsive layouts
-├── script.js           # Interactive functionality
-├── haadiya-hasan.JPG   # Portfolio profile image
-└── README.md           # Project documentation
+.
+├── index.html     # page structure and content
+├── style.css      # base design system and layout
+├── script.js      # original interactions
+├── fx.css         # animation layer, dark theme, newer sections
+├── fx.js          # cursor, background, planet, filters, popups, toolkit, contact, sound, photos
+├── Resume.pdf     # your resume (the "Download CV" button points here)
+├── assets/
+│   ├── me-1.jpg   # main portrait
+│   ├── me-2.jpg   # polaroid 1
+│   └── me-3.jpg   # polaroid 2
+└── README.md
 ```
+
+Load order matters: `style.css` then `fx.css` in the head, and `script.js` then `fx.js` at the end of the body.
 
 ---
 
-## 🚀 Getting Started
+## Run locally
 
-Since this is a static frontend project, no build system or package installation is required.
+No installation needed.
 
-### 1. Clone the repository
+1. Double-click `index.html`, or
+2. Use VS Code with Live Server, or
+3. From the project folder:
 
 ```bash
-git clone https://github.com/haadiya-hasan/Portfolio.git
+python -m http.server 8000
 ```
 
-### 2. Open the project
+Then open http://localhost:8000.
+
+Google Fonts and the tool logos (Devicon) load from the internet. Offline, the page still works with fallback fonts and monogram logos.
+
+---
+
+## Customising
+
+### Photos
+Put `me-1.jpg`, `me-2.jpg` and `me-3.jpg` in `assets/`. To use other filenames, edit the `PHOTO` object in `fx.js`.
+
+### Resume, links and email
+Add `Resume.pdf` to the project root. Search `index.html` for the email, GitHub and LinkedIn links to change them.
+
+### Projects
+Edit the project cards in `index.html`. Popup text and filter categories are in the `D` array in `fx.js`, one entry per card in the same order.
+
+### Toolkit
+All in `fx.js`: `ROWS` (expandable-row notes), `AX` (radar levels), `TOOLS` (logo tiles and draggable tags), `CMD` (terminal commands).
+
+### Theme
+The site ships in dark mode. All dark-theme rules are in one block in `fx.css` headed DARK THEME. Delete that block to return to the light theme.
+
+---
+
+## Deploying to GitHub Pages
+
+1. Create a repository named `haadiya-hasan.github.io`.
+2. Upload all files, keeping the folder structure.
+3. Go to Settings → Pages, choose Deploy from a branch, select `main` and `/ (root)`, then save.
+4. After a minute the site is live at `https://haadiya-hasan.github.io/`.
 
 ```bash
-cd Portfolio
+git init
+git add .
+git commit -m "Interactive AI/ML portfolio"
+git branch -M main
+git remote add origin https://github.com/haadiya-hasan/haadiya-hasan.github.io.git
+git push -u origin main
 ```
 
-### 3. Run the portfolio
+---
 
-Open `index.html` directly in your browser.
+## Notes
 
-For the best development experience, you can also use **VS Code with Live Server**.
+- The contact form uses `mailto:`, so it opens the visitor's email app instead of sending directly.
+- Browser storage is used only to remember the sound on/off choice.
 
 ---
 
-## 🎨 Design
+## Tech
 
-The portfolio uses a modern, minimal interface with:
+HTML5 · CSS3 · Vanilla JavaScript (Canvas 2D, Web Audio API, Web Animations API, IntersectionObserver) · Google Fonts (Manrope, DM Mono, Playfair Display) · Devicon
 
-* Inter and Space Grotesk typography
-* Gradient accents
-* Animated UI elements
-* Responsive layouts
-* Light and dark themes
-* Interactive visual components
+## Credits
 
-The goal is to keep the design clean while still giving the portfolio some personality instead of looking like it was assembled by a corporate committee trapped in 2014.
-
----
-
-## 📬 Contact
-
-**Haadiya Hasan Faruqi**
-
-📧 Email: [hasan.haadiya@gmail.com](mailto:hasan.haadiya@gmail.com)
-💻 GitHub: [github.com/haadiya-hasan](https://github.com/haadiya-hasan)
-💼 LinkedIn: [linkedin.com/in/haadiya-faruqi-6197b2387](https://www.linkedin.com/in/haadiya-faruqi-6197b2387/)
-
----
-
-## ⭐ Acknowledgements
-
-Built and designed by **Haadiya Hasan Faruqi** as a personal project to document my development journey, projects, and interests in AI, data, and web development.
-
----
-
-### 📌 Status
-
-**Active Development** 🚧
-
-This portfolio is continuously being updated as I learn new technologies, build new projects, and expand my experience.
+Designed and built by **Haadiya Faruqi**.
