@@ -68,10 +68,6 @@ Design direction: **Mauve Serenity × Monochrome Chic** — near-black paper, in
 ├── fx.css         # animation layer, dark theme, newer sections
 ├── fx.js          # cursor, background, planet, filters, popups, toolkit, contact, sound, photos
 ├── Resume.pdf     # your resume (the "Download CV" button points here)
-├── assets/
-│   ├── me-1.jpg   # main portrait
-│   ├── me-2.jpg   # polaroid 1
-│   └── me-3.jpg   # polaroid 2
 └── README.md
 ```
 
